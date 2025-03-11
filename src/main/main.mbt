@@ -2,7 +2,7 @@
 
 // `run_async` spawn a new coroutine and execute an async function in it
 ///|
-fn run_async(f :  async() -> Unit) -> Unit = "%async.run"
+fn run_async(f : async () -> Unit) -> Unit = "%async.run"
 
 ///|
 fn main {
