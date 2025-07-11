@@ -4,5 +4,5 @@ This is minimal example of using [mocket](https://github.com/oboard/mocket) libr
 
 ## Run
 ```bash
-make serve
+moon run src/main/main.mbt --target js
 ```
