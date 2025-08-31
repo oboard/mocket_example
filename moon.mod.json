@@ -1,8 +1,8 @@
 {
   "name": "oboard/mocket_example",
-  "version": "0.1.0",
+  "version": "0.4.2",
   "deps": {
-    "oboard/mocket": "0.3.3"
+    "oboard/mocket": "0.4.2"
   },
   "readme": "README.md",
   "repository": "",

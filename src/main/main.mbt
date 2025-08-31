@@ -5,7 +5,7 @@ fn main {
   // Register global middleware
   app
   ..use_middleware(event => println(
-    "📝 Request: \{event.req.reqMethod} \{event.req.url}",
+    "📝 Request: \{event.req.method_} \{event.req.url}",
   ))
 
   // Text Response
@@ -15,7 +15,7 @@ fn main {
   ..get("/json", _event => { "name": "John Doe", "age": 30, "city": "New York" })
 
   // Async Response
-  ..get("/async_data", async fn(_event) {
+  ..get("/async_data", fn(_event) {
     { "name": "John Doe", "age": 30, "city": "New York" }
   })
 
@@ -43,7 +43,7 @@ fn main {
 
   // 404 Page
   ..get("/404", e => {
-    e.res.statusCode = 404
+    e.res.status_code = 404
     @mocket.html(
       (
         #|<html>
