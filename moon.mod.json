@@ -2,7 +2,7 @@
   "name": "oboard/mocket_example",
   "version": "0.4.2",
   "deps": {
-    "oboard/mocket": "0.5.5"
+    "oboard/mocket": "0.5.8"
   },
   "readme": "README.md",
   "repository": "",
