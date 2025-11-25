@@ -1,12 +1,7 @@
 // Generated using `moon info`, DON'T EDIT IT
 package "oboard/mocket_example/main"
 
-import(
-  "oboard/mocket"
-)
-
 // Values
-async fn logger_middleware(@mocket.MocketEvent, async () -> @mocket.HttpBody noraise) -> @mocket.HttpBody noraise
 
 // Errors
 
