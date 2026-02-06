@@ -1,0 +1,8 @@
+import {
+  "oboard/mocket",
+  "moonbitlang/core/env"
+}
+
+options(
+  "is-main": true,
+)

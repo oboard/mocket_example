@@ -2,13 +2,12 @@
   "name": "oboard/mocket_example",
   "version": "0.4.2",
   "deps": {
-    "oboard/mocket": "0.6.4"
+    "oboard/mocket": "0.6.7"
   },
   "readme": "README.md",
   "repository": "",
   "license": "Apache-2.0",
   "keywords": [],
   "description": "",
-  "source": "src",
   "preferred-target": "native"
 }
